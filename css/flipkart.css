@@ -1,0 +1,508 @@
+body {
+    background-color: white;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #2874f0;
+    margin-top: -0.3cm;
+    margin-left: -0.2cm;
+    margin-right: -0.2cm;
+    height: 1.5cm;
+}
+.topnav a h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    float: left;
+    padding-left: 4.5cm;
+    margin-top: 0.4cm;
+}
+.topnav input[type=text] {
+    float: left;
+    padding: 7px;
+    margin-top: 0.4cm;
+    margin-left: 0.5cm;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 12cm;
+}
+.topnav select {
+    margin-top: 0.6cm;
+}
+.seller a {
+    color: white;
+    text-align: center;
+    font-size: large;
+    float: right;
+    text-decoration: none;
+    margin-top: -1cm;
+    padding-right: 8.5cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.more a {
+    color: white;
+    text-align: center;
+    font-size: large;
+    float: right;
+    text-decoration: none;
+    margin-top: -1cm;
+    padding-right: 6cm;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cart img {
+    float: right;
+    padding-right: 4cm;
+    margin-top: -1.2cm;
+}
+.cart a {
+    color: white;
+    text-align: center;
+    font-size: large;
+    float: right;
+    text-decoration: none;
+    margin-top: -1cm;
+    padding-right: 3cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flex-container {
+    display: flex;
+    background-color: white;
+}
+.flex-container a img {
+    background-color: white;
+    height: 2cm;
+    width: 2cm;
+    margin: 20px;
+    margin-top: -0.01cm;
+    padding: 9px;
+}  
+.flex-container a img :hover {
+    background-color: white;
+}
+.flex-container2 a {
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    text-decoration: none;
+    margin: 18px;
+    margin-top: 1cm;
+    padding: 19.25px;
+}
+.slidePictures img {
+    height: 7.5cm;
+    width: 35.8cm;
+    padding: 0.01cm;
+    margin-top: 0.5cm;
+    margin-left: -0.1cm;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    padding-left: 0.5cm;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .suggested-box h2 {
+    font-family: Roboto,Arial,sans-serif;
+    margin-left: 0.5cm;
+  }
+  .suggested-box p {
+    font-family: Roboto,Arial,sans-serif;
+    color: grey;
+    font-size: large;
+    margin-top: -0.3cm;
+    margin-left: 0.7cm;
+  }
+  .flex-container3 {
+    background-color: white;
+}
+.flex-container3 a img {
+    float: right;
+    background-color: white;
+    margin: 10px;
+    margin-right: 0.7cm;
+    padding: 20px;
+}
+.flex-container4 {
+    background-color: white;
+    display: flex;
+}
+.flex-container4 {
+    display: flex;
+    background-color: white;
+}
+.camera {
+    background-color: white;
+    display: flex;
+}
+.camera a {
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 6cm;
+    margin-left: 8.5cm;
+    text-decoration: none;
+}
+.monitor {
+    background-color: white;
+    display: flex;
+}
+.monitor a {
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -0.5cm;
+    margin-left: 16cm;
+    text-decoration: none;
+}
+.printer {
+    background-color: white;
+    display: flex;
+}
+.printer a {
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -0.5cm;
+    margin-left: 23.5cm;
+    text-decoration: none;
+}
+.printer2 {
+    background-color: white;
+    display: flex;
+}
+.printer2 a {
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -0.5cm;
+    margin-left: 31cm;
+    text-decoration: none;
+}
+.BOE h2 {
+    background-color: white;
+    color: black;
+    padding-left: 0.5cm;
+    margin-top: -6.5cm;
+    text-align: center;
+}
+.BOE img {
+    margin-top: -3.2cm;
+}
+.BOE button {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px 32px;
+    margin-left: 1.7cm;
+    margin-top: -4.5cm;
+    border: none;
+}
+.starting-price p.camera {
+    margin-left: 8.3cm;
+    margin-top: -1.4cm;
+    color: #388e3c;
+}
+.starting-price p.monitor {
+    margin-left: 15.5cm;
+    margin-top: -0.9cm;
+    color:#388e3c
+}
+.starting-price p.printer3 {
+    margin-left: 23cm;
+    margin-top: -0.9cm;
+    color:#388e3c;
+}
+.starting-price p.printer4 {
+    margin-left: 30.3cm;
+    margin-top: -0.9cm;
+    color: #388e3c;
+}
+
+.brand p.camera {
+    margin-left: 8.1cm;
+    margin-top: -0.3cm;
+    color:gray;
+}
+.brand p.monitor {
+    margin-left: 16.3cm;
+    margin-top: -0.8cm;
+    color: gray;
+}
+.brand p.printer3 {
+    margin-left: 24cm;
+    margin-top: -0.9cm;
+    color: gray;
+}
+.brand p.printer4 {
+    margin-left: 31.2cm;
+    margin-top: -0.9cm;
+    color: gray;
+}
+
+.flex-container4 a img.car-pressure {
+    background-color: white;
+    margin-left: 7.9cm;
+    margin-top: 0.7cm;
+}
+.flex-container4 a img.tyres {
+    background-color: white;
+    margin-left: 3.4cm;
+    margin-top: 0.7cm;
+}
+.flex-container4 a img.cricket {
+    background-color: white;
+    margin-left: 4.5cm;
+    margin-top: 0.7cm;
+}
+.flex-container4 a img.deodrant {
+    background-color: white;
+    margin-left: 5.4cm;
+    margin-top: 0.7cm;
+}
+.BFTM h2 {
+    text-align:start;
+    margin-top: -5.8cm;
+    margin-left: 1.5cm;
+}
+.BFTM button {
+    float: left;
+    margin-top: -0.2cm;
+    margin-left: 2.3cm;
+}
+.BFTM button {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px 32px;
+    margin-left: 1.7cm;
+    border: none;
+}
+.BFTM-img a img {
+    float: left;
+    margin-top: 1.2cm;
+    margin-left: -5cm;
+}
+
+.car-washer {
+    background-color: white;
+    display: flex;
+}
+.car-washer a {
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 4.5cm;
+    margin-left: 1cm;
+    text-decoration: none;
+}
+.tyre {
+    background-color: white;
+    display: flex;
+}
+.tyre a {
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -0.5cm;
+    margin-left: 9.8cm;
+    text-decoration: none;
+}
+.games {
+    background-color: white;
+    display: flex;
+}
+.games a {
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -0.5cm;
+    margin-left: 17.1cm;
+    text-decoration: none;
+}
+.deo {
+    background-color: white;
+    display: flex;
+}
+.deo a {
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -0.5cm;
+    margin-left: 24.3cm;
+    text-decoration: none;
+}
+
+.starting-discount-price p.washer {
+    background-color: white;
+    margin-left: 8cm;
+    margin-top: 0.2cm;
+    color:#388e3c
+}
+.starting-discount-price p.Tyre {
+    background-color: white;
+    margin-top: -0.9cm;
+    margin-left: 15.7cm;
+    color:#388e3c;
+}
+.starting-discount-price p.game {
+    background-color: white;
+    margin-top: -0.9cm;
+    margin-left: 23cm;
+    color: #388e3c;
+}
+.starting-discount-price p.deo {
+    background-color: white;
+    margin-top: -0.9cm;
+    margin-left: 30.4cm;
+    color: #388e3c;
+}
+
+.brand2 p.washer {
+    background-color: white;
+    margin-top: -0.3cm;
+    margin-left: 8cm;
+    color: gray;
+}
+.brand2 p.tyre {
+    background-color: white;
+    margin-top: -0.9cm;
+    margin-left: 15cm;
+    color: gray;
+}
+.brand2 p.game {
+    background-color: white;
+    margin-top: -0.9cm;
+    margin-left: 22.9cm;
+    color: gray;
+}
+.brand2 p.deo {
+    background-color: white;
+    margin-top: -0.9cm;
+    margin-left: 30cm;
+    color: gray;
+}
+
+.bottomnav {
+    overflow: hidden;
+    background-color: #14305a;
+    color: gray;
+    font-size: small;
+    height: 10cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -1cm;
+    margin-bottom: -1cm;
+}
+.bottomnav .about p {
+    margin-left: 4.5cm;
+    margin-top: 2.2cm;
+}
+.bottomnav .help p {
+    margin-left: 8.5cm;
+    margin-top: -5.2cm;
+}
+.bottomnav .policy p {
+    margin-left: 12.5cm;
+    margin-top: -3.9cm
+}
+.bottomnav .social p {
+    margin-left: 16cm;
+    margin-top: -4.6cm;
+}
+.bottomnav .mail-connect p {
+    margin-left: 23.2cm;
+    margin-top: -2.6cm;
+}
+.bottomnav .registered-office p {
+    margin-left: 29.5cm;
+    margin-top: -4cm;
+}
+.bottomnav a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 4.5cm;
+}
+.bottomnav .help-item a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 8.5cm;
+}
+.bottomnav .policies a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 12.5cm;
+}
+.bottomnav .social-media a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 16cm;
+}
+.bottomnav .mail p {
+    text-decoration: none;
+    line-height: 1.5;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 23.2cm;
+}
+.bottomnav .registered-office-address p {
+    text-decoration: none;
+    line-height: 1.5;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 29.5cm;
+}
